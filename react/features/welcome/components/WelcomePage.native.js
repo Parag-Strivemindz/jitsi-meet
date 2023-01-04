@@ -92,7 +92,7 @@ class WelcomePage extends AbstractWelcomePage<*> {
         } = this.props;
 
         navigation.setOptions({
-            headerTitle: t('welcomepage.headerTitle')
+            headerTitle: t('hello')
         });
 
         navigation.addListener('focus', () => {
@@ -394,7 +394,7 @@ class WelcomePage extends AbstractWelcomePage<*> {
         return (
             <View style = { styles.reducedUIContainer }>
                 <Text style = { styles.reducedUIText }>
-                    { t('welcomepage.reducedUIText', { app: getName() }) }
+                    { t('yaraVoice', { app: getName() }) }
                 </Text>
             </View>
         );

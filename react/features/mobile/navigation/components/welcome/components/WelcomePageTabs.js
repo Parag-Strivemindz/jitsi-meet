@@ -82,7 +82,7 @@ const WelcomePageTabs = ({ disabled, onListContainerPress, onSettingsScreenFocus
                 name = { screen.welcome.tabs.recent }
                 options = {{
                     ...recentListTabBarOptions,
-                    title: t('welcomepage.recentList')
+                    title: t('React-Native') //welcomepage.recentList
                 }}>
                 { RecentListScreen }
             </WelcomePage.Screen>
